@@ -23,19 +23,18 @@ This project involved building a chatbot using Python and natural language proce
 - Built using nltk, Keras, and sklearn
 - Leverages lemmatization, bag of words model, and deep learning
 - Provides relevant links for more information
-- Dialogue based interface for natural conversation
+- Dialogue-based interface for natural conversation
+- Streamlit GUI for easy interaction
 
 ## Model Architecture
 - Sequential model with dense layers and dropout
 - Input word vectors
 - Output softmax layer with intents
-- SGD optimizer and categorical cross entropy loss
+- SGD optimizer and categorical cross-entropy loss
 
 ## Usage
-- Run chatbot_model.py to train the model.
-- Run intents.py and chat with the bot in the terminal.
+Run the Streamlit app and chat with the bot in the GUI.
 
 ## Future Work 
 - Expand intents dataset from website knowledge base
 - Add more conversational features
-- Deploy chatbot on web interface
