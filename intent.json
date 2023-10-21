@@ -1,0 +1,131 @@
+{"intents": [
+    {"tag": "greetings",
+     "patterns": ["hello", "hey", "good day","hi there", "how are you today?", "hi"],
+     "responses": ["Hello there!, Welcome to Solent University Postgraduate Admission Chat Buddy, how can i help you","Hello there!, Your journey starts here!, How can i help?.", "Hi! I am your admissions chat buddy!, What would you like help with?",  "Nice to meet you!, I can help you with admissions enquiries"]
+     },
+
+     {"tag": "request",
+     "patterns": ["i want to find out about courses", "courses", "admission","admissions","i will like to find out about admission","i will like to find out about admissions","what courses do you offer","i want to study a course","i want to gain admission", "course information", "department", "faculty"],
+     "responses": ["What course will you like to study?", "Tell me your desired course of study", "What would you like to study?"]
+     },
+
+     {"tag": "interest",
+     "patterns": ["Architectural Project Management", "Sustainable Building Design", "Project Management","Visual Communication", "Global Master of Business Administration", "MBA", "Internal Communication Management(MA)", "Applied AI and Data Science","applied artificial intelligence and data science","artificial intelligence","data science", "Cyber Security Engineering", "Sports Broadcast Journalism", "Superyacht", "Design Make-up and Hair Design Futures", "Creative Direction for Fashion and Beauty", "Film Production", "Post Production in Film and Television", "General Practice Nursing", "History Taking and Physical Assessment", "Independent and Supplementary Prescribing", "Commercial Law and Professional Legal Practice Intellectual", "Property Law and Professional Legal Practice", "International Trade and Maritime Law", "International Maritime Business", "International Shipping and Logistics", "International Trade and Maritime Law", "Shipping and Operations", "Psychology", "Clinical Exercise Science", "Football Science", "Physical Education and School Sport", "Sport Management Sport and Exercise Medicine in Football", "Sport Science for Performance Coaching"],
+     "responses": ["Good news!, I think i found your course, Would you like to view course category?", "Great pick!, I may have found your course., Would you like to view course category?", "Interesting pick!, I think I found your course, Would you like to view course category?"]
+     },
+
+     {"tag": "fees",
+     "patterns": ["how much", "what is the cost", "fees", "price","what is the course fee","what is the school fee","what is the fee","what is the course fee","how much is the course fee", "course fee"],
+     "responses": ["Postgraduate fees at Solent ranges between £1,477 - £15,300. Go to: https://www.solent.ac.uk/finance for more information. For scholarship information, type 'show me'?"]
+     },
+
+     {"tag": "scholarship",
+     "patterns": ["show me", "scholarship","are there scholarship opportunities","what about funding","tell me about scholarship opportunities","can i get funding","is funding available for this course","is scholarship available for this course","is scholarship available", "give me information about funding","are there funding opportunities", "scholarship opportunities", "Give me information about scholarship"],
+     "responses": ["Solent University offers a number of scholarships for both home and international students. Visit:https:https://www.solent.ac.uk/finance/grants-bursaries-scholarships/bursaries"]
+     },
+
+     {"tag": "mode of study",
+     "patterns": ["distant learning courses","what is the mode of study","how is the course offered", "online courses", "is the course offered full time", "is there a part-time option", "i want to find out about short-term courses", "What  is the mode of study?"],
+     "responses": ["Courses at Solent University are offered in different modes, including; Full-time, Part-time, Short-term, Distant Learning. Find more information on our course page: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate.", "Solent offers: Full time, Part-time, Short-term, Online mode of study. Please visit our course page: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate"]
+     },
+
+     {"tag": "intake",
+     "patterns": ["when is the intake","when is the course start date", "when is the start date", "when is the entry date"],
+     "responses": ["Our courses have January and September start. Please visit https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for more information", "You can start your studies in September or January Please visit https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for more information"]
+     },
+
+     {"tag": "admission requirement",
+     "patterns": ["requirements","what are the requirements", "what are the admissions requirements", "i'm i eligible","do i have to take an english test","what is the language requirement","is english test required for international students", "how do i know if i am eligible", "what is the course eligibility", "what is the course requirement?", "what documents do i need to provide?", "What is the admission requirement?"],
+     "responses": ["Great question. Mandatory Requirements are as follows: Two academic references. Certified transcripts of qualifications. English language proficiency (for non-UK students). Copy of passport. Copy of current visa (if applicable) A personal statement. Employer sponsor form, where appropriate. For course specific requirements, go to: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate", "I'm glad you asked. Mandatory Requirements are as follows: Two academic references. Certified transcripts of qualifications. English language proficiency (for non-UK student). Copy of passport. Copy of current visa (if applicable). A personal statement. Employer sponsor form, where appropriate. For course specific requirements, go to: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate."]
+     },
+
+     {"tag": "registration",
+     "patterns": ["how do i register","when can i register", "is registration open", "when is registration open"],
+     "responses": ["For information on registration, please visit: Please visit https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate"]
+     },
+
+     {"tag": "no_interest",
+     "patterns": ["i can't find my courses", "i don't understand what mean", "you don't offer my course", "you offer limited courses"],
+     "responses": ["Would you like to view course category?", "Would you like to view departments?"]
+     },
+
+     {"tag": "departments",
+     "patterns": ["yes","i don't know what to study", "can i see your list of courses", "show me the list of courses", "what courses does solent offer","what courses does the university offer", "show me course category", "i will like to view courses", "i want to view departments", "what courses do you offer" ],
+     "responses": ["Here is our course category: Architecture, interiors and construction. Art and design. Business, marketing and finance. Computing Engineering.English and Journalism. Fashion and Beauty. Film TV, media production and technology. Health and medical science. Law. Maritime. Psychology and mental health. Sports and Fitness. Which course category will you like to explore?", "Course Category: Architecture, interiors and construction. Art and design. Business, marketing and finance. Computing Engineering. English and Journalism. Fashion and Beauty.Film TV, media production and technology. Health and medical science. Law. Maritime. Psychology and mental health. Sports and Fitness. Which course category will you like to explore?"]
+     },
+
+     {"tag": "Architecture, interiors and construction",
+     "patterns": ["architecture", "interior", "interior design", "construction", "building", "design"],
+     "responses": ["Available options: Architectural Project Management. Sustainable Building Design. Please visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?", " 1 option is available for this course: Architectural Project Management. Sustainable Building Design. Please visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?" ]
+     },
+
+     {"tag": "Art and design",
+     "patterns": ["Art and design", "art", "design", "visual design", "visual"],
+     "responses": ["Available options: Visual Communication. Please visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?", "1 option is available for this course: Visual Communication. Please visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?"]
+     },
+
+     {"tag": "Business, marketing and finance",
+     "patterns": ["Business, marketing and finance", "management", "administration", "MBA", "communication", "project management"],
+     "responses": ["Available options: Global Master of Business Administration(MBA). Internal Communication Management(MA). Project Management. Please visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?", "3 options are available for this course: Global Master of Business Administration(MBA). Internal Communication Management(MA). Project Management. Please visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?"]
+     },
+
+     {"tag": "Computing Engineering",
+     "patterns": ["Computing", "digital", "engineering","security", "cyber security", " computer"],
+     "responses": ["Available options: Applied AI and Data Science. Digital Design. Cyber Security Engineering. Computer Engineering. Please visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?", "4 options are available for this course: Applied AI and Data Science. Digital Design. Cyber Security Engineering. Computer Engineering. Please visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?"]
+     },
+
+     {"tag": "English and Journalism",
+     "patterns": ["English and Journalism", "broadcast", "english", "Journalism"],
+     "responses": ["Available options: Sports Broadcast Journalism. Please visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?", "1 option is available for this course: Sports Broadcast Journalism.vPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?"]
+     },
+
+     {"tag": "Engineering",
+     "patterns": ["Engineering", "yatch", "ship", "construction"],
+      "responses": ["Available options: superyacht Design. Please visit: Please visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?", "1 option are available for this course: Superyacht Design. Please visit: Please visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details. What other information do you require?"]
+     },
+
+     {"tag": "Fashion and Beauty",
+     "patterns": ["Fashion and Beauty", "make up", "hair", "beauty"],
+     "responses": ["Available option: Make-up and Hair Design Futures.\n\nCreative Direction for Fashion and Beauty.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?", "2 options are available for this course:\n\nMake-up and Hair Design Futures.\n\nCreative Direction for Fashion and Beauty.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?"]
+     },
+
+     {"tag": "Film TV, media production and technology",
+     "patterns": ["Film TV, media production and technology", " film", "production", "film and television"],
+     "responses": ["Available options:\n\nFilm Production.\n\nProduction in Film and Television.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?", "2 options are available for this course:\n\nFilm Production.\n\nProduction in Film and Television.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?"]
+     },
+
+     {"tag": "Health and medical science",
+     "patterns": ["Health and medical science", "medical", "nursing", "practice"],
+     "responses": ["Available options:\n\nGeneral Practice (Nursing and Allied Health Professionals).\n\nHistory Taking and Physical Assessment.\n\nIndependent and Supplementary Prescribing.\n\nPGCert Independent Prescribing Practice.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?", "4 options are available for this course:\n\nGeneral Practice (Nursing and Allied Health Professionals).\n\nHistory Taking and Physical Assessment.\n\nIndependent and Supplementary Prescribing.\n\nPGCert Independent Prescribing Practice.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?"]
+    },
+
+    {"tag": "Law",
+    "patterns": ["Law", "legal practice", "international law", "intellectual property law", "commercial law", "trade law"],
+    "responses": ["Available options:\n\nCommercial Law and Professional Legal Practice.\n\nIntellectual Property Law and Professional Legal Practice.\n\nInternational Trade and Maritime Law (Top-up).\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?", "4 options are available for this course:\n\nCommercial Law and Professional Legal Practice.\n\nIntellectual Property Law and Professional Legal Practice.\n\nInternational Trade and Maritime Law (Top-up).\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?"]
+    },
+
+    {"tag": "Maritime",
+    "patterns": ["Maritime", "shipping", "logistics", "maritime business", "international trade", "shipping and operation"],
+    "responses": ["Available options:\n\nInternational Maritime Business.\n\nInternational Shipping and Logistics.\n\nPGDip International Trade and Maritime Law.\n\nInternational Trade and Maritime Law (Top-up).\n\nShipping and Operations.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?", "4 options are available for this course:\n\nInternational Maritime Business.\n\nInternational Shipping and Logistics.\n\nPGDip International Trade and Maritime Law.\n\nInternational Trade and Maritime Law (Top-up).\n\nShipping and Operations.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?"]
+    },
+
+    {"tag": "Psychology and mental health",
+    "patterns": ["Psychology and mental health", "mental",  "health", "psychology"],
+    "responses": ["Available options:\n\nMRes Psychology.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?", "1 option is available for this course:\n\nMRes Psychology.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?"]
+    },
+
+    {"tag": "Sports and Fitness",
+    "patterns": ["Sports and Fitness", " exercise", "football science", "football", "physical education", "sport", "coaching"],
+    "responses": ["Available options:\n\nClinical Exercise Science.\n\nFootball Science.\n\nPhysical Education and School Sport.\n\nSport Management.\n\nSport and Exercise Medicine in Football.\n\nSport Science for Performance Coaching.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?", "6 options are available for this course:\n\nClinical Exercise Science.\n\nFootball Science.\n\nPhysical Education and School Sport.\n\nSport Management.\n\nSport and Exercise Medicine in Football.\n\nSport Science for Performance Coaching.\n\nPlease visit: https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate for full course details.\n\nWhat other information do you require?"]
+   },
+
+   {"tag": "incorrect_selection",
+     "patterns": ["no", "information not useful","i don't understand what you mean", "how do you mean","that's not useful","you are not giving me the right information","you are not making sense", "not useful", "not helpful"],
+     "responses": ["Sorry,\n\nI am not sure I am trained to answer that question.\n\nIf you can rephrase, I can check again","Can you please rephrase your request", "Sorry I do not have that information for you, trying rephrasing"]
+    },
+
+   {"tag": "goodbye",
+    "patterns": ["thank you", "goodbye", "bye", "that's all"],
+    "responses": ["I'm happy I could help.\n\nIt would be a pleasure to have you study at Solent!, If you will like to stay around for some random conversation, type 'tell me something random' ", "My pleasure,\n\nI wish you the very best with your application."]
+   }
+]}
